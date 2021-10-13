@@ -73,7 +73,7 @@ For example, you can define your desired fonts, transparency or colors:
 *.color0: #111
 ...
 ```
-Make sure you have a Nerd Font with Ligature support (like FiraCode Nerd Font) installed for ligature
+Make sure you have a Nerd Font with Ligature support (like [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)) installed for ligature
 support.
 
 The `alpha` value (for transparency) goes from `0` (transparent) to `1` (opaque).

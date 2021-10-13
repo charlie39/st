@@ -1,5 +1,4 @@
-# Charlie's  build of st - the simple (suckless) terminal based off Luke Smith's
-[build](https://github.com/LukeSmithxyz/st.git)
+# Charlie's  build of st - the simple (suckless) terminal based off Luke Smith's [build](https://github.com/LukeSmithxyz/st.git)
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional features that make it literally the best terminal emulator ever:
 
@@ -50,7 +49,7 @@ cd st
 sudo make install
 ```
 
-##build dependencies
+## Build dependencies
 
 + make (guess why?)
 + fontconfig (default build)

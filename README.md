@@ -50,8 +50,13 @@ cd st
 sudo make install
 ```
 
+##build dependencies
 
-Obviously, `make` is required to build. `fontconfig` is required for the default build, since it asks `fontconfig` for your system monospace font.  It might be obvious, but `libX11` and `libXft` are required as well. Chances are, you have all of this installed already.
++ make (guess why?)
++ fontconfig (default build)
++ libxX11 and libXft ( you probably have it installed)
++ hubfuzz (for ligature)
+
 
 On OpenBSD, be sure to edit `config.mk` first and remove `-lrt` from the `$LIBS` before compiling.
 
@@ -64,11 +69,13 @@ For many key variables, this build of `st` will look for X settings set in eithe
 For example, you can define your desired fonts, transparency or colors:
 
 ```
-*.font:	Liberation Mono:pixelsize=12:antialias=true:autohint=true;
+*.font:	FiraCode Nerd Font:size=12;
 *.alpha: 0.9
 *.color0: #111
 ...
 ```
+Make sure you have a Nerd Font with Ligature support (like FiraCode Nerd Font) installed for ligature
+support.
 
 The `alpha` value (for transparency) goes from `0` (transparent) to `1` (opaque).
 

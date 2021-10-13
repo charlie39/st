@@ -54,7 +54,7 @@ sudo make install
 + make (guess why?)
 + fontconfig (default build)
 + libxX11 and libXft ( you probably have it installed)
-+ hubfuzz (for ligature)
++ harfbuzz (for ligature)
 
 
 On OpenBSD, be sure to edit `config.mk` first and remove `-lrt` from the `$LIBS` before compiling.
